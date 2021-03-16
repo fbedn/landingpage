@@ -19,19 +19,15 @@
 
     <!--navbar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="#">Home</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
         <span class="navbar-toggler-icon"></span>
       </button>
     
       <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
+
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Cursos
@@ -45,9 +41,37 @@
               <a class="dropdown-item" target="_blank" href="https://www.youtube.com/watch?v=tpIctyqH29Q&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo">Básico de Ciência da Computação</a>
             </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Desativado</a>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Docs C
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" target="_blank" href="https://www.iso.org/standard/74528.html">Documentação oficial da última versão (C17)</a>
+              <a class="dropdown-item" target="_blank" href="https://devdocs.io/c/">Documentação aberta até a última versão (C17) (site DevDocs)</a>
+            </div>
           </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Docs Assembly
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" target="_blank" href="https://www.iso.org/standard/79358.html">Documentação oficial da última versão (C++20)</a>
+              <a class="dropdown-item" target="_blank" href="https://devdocs.io/cpp/">Documentação aberta até a última versão (C++20) (site DevDocs)</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Docs Assembly x86-64
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" target="_blank" href="https://www.nasm.us/xdoc/2.15.05/html/nasmdoc0.html">Documentação do assembler NASM versão 2.15.05</a>
+              <a class="dropdown-item" target="_blank" href="https://sourceware.org/binutils/docs/as/index.html">Documentação do assembler gas (GNU Assembler) presente no binutils 2.36</a>
+            </div>
+          </li>
+
         </ul>
       </div>
     </nav>
@@ -98,10 +122,10 @@
 
         <div class="card p-3">
           <blockquote class="blockquote mb-0 card-body">
-            <p>"X"</p>
+            <p>"Eu comecei com linguagem de máquina e assembly."</p>
             <footer class="blockquote-footer">
               <small class="text-muted">
-                Y
+                Charles Petzold, um dos programadores pioneiros da Microsoft
               </small>
             </footer>
           </blockquote>
@@ -109,10 +133,10 @@
 
         <div class="card p-3">
           <blockquote class="blockquote mb-0 card-body">
-            <p>"X"</p>
+            <p>"C é peculiar, imperfeita, e um enorme sucesso."</p>
             <footer class="blockquote-footer">
               <small class="text-muted">
-                Y
+                Dennis Ritchie, criador da linguagem C
               </small>
             </footer>
           </blockquote>
@@ -120,10 +144,10 @@
 
         <div class="card p-3">
           <blockquote class="blockquote mb-0 card-body">
-            <p>"X"</p>
+            <p>"C torna fácil atirar no próprio pé; C++ torna mais difícil, porém, quando acontece, você explode a sua perna inteira."</p>
             <footer class="blockquote-footer">
               <small class="text-muted">
-                Y
+                Bjarne Stroustrup, criador da linguagem C++
               </small>
             </footer>
           </blockquote>
@@ -134,17 +158,66 @@
 
       <!--texto e vídeo-->
       <div class="row mt-5 mb-5">
-        <div class="col-md-6">
-          <h3>Título</h3>
+
+        <div class="col-md-12">
+          <h3>Linguagem C++</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quis nesciunt consequuntur soluta assumenda odio accusantium debitis expedita libero labore. Accusamus eius quod autem ullam dolor id provident harum facilis.
+            C++ é uma linguagem independente do C, mas que surgiu a partir da linguagem C. O intuito era permitir trabalhar mais facilmente com orientação a objetos. Foi criado por Bjarne Stroustrup, e apareceu pela primeira vez em 1979.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quis nesciunt consequuntur soluta assumenda odio accusantium debitis expedita libero labore. Accusamus eius quod autem ullam dolor id provident harum facilis.
+            Atualmente, é muito utilizado para programar:
+          </p>
+          <p>- aplicativos desktop (como o Photoshop, o Google Chrome, o Firefox, o Microsoft Office)</p>
+          <p>- sistemas operacionais (por exemplo, parte do Windows)</p>
+          <p>- motores de jogos (por exemplo, o RAGE da Rockstar)</p>
+          <p>- bancos de dados (como partes do MySQL)</p>
+          <p>- firmware</p>
+          <p>- drivers</p>
+        </div>
+
+        <div class="col-md-12">
+          <h3>Linguagem C</h3>
+          <p>
+            A linguagem C surgiu em 1972 nos Bell Labs, a partir da necessidade de programar utilitários para o sistema operacional Unix, e também para reescrever o Unix. Ela foi criada por Dennis Ritchie a partir da linguagem B.
+          </p>
+          <p>
+            A linguagem C continua sendo muito utilizada, principalmente para programar:
+          </p>
+          <p>- compiladores (por exemplo, o gcc)</p>
+          <p>- sitemas operacionais (por exemplo, o kernel do Linux e grande parte do Windows)</p>
+          <p>- interpretadores de outras linguagens (por exemplo, os interpretadores do Java (JVM), do Python (CPython) e do PHP (Zend))</ul></p>
+          <p>- bancos de dados (por exemplo, o PostgreSQL e a maior parte do MySQL)</p>
+          <p>- muitos aplicativos de software livre (como o GIT)</p>
+          <p>- compiladores (por exemplo, o gcc)</p>
+          <p>- drivers de dispositivos de hardware</p>
+          <p>- firmware</p>
+        </div>
+
+        <div class="col-md-12">
+          <h3>Assembly</h3>
+          <p>
+            O assembly é uma representação (mais legível a humanos) dos comandos de máquina que o processador executa. O assembly não é uma única linguagem. De modo geral, cada arquitetura de processador possui a sua linguagem assembly. E não necessariamente todos os processadores de uma mesma arquitetura têm todos os comandos assembly de sua arquitetura (mas sempre possuem os principais).
+          </p>
+          <p>
+            A maioria dos computadores do tipo desktop e laptop hoje em dia trabalham com a arquitetura x86-64. Enquanto a maioria de celulares e tablets rodam a arquitetura ARM.
+          </p>
+          <p>
+            Atualmente, o assembly é utilizado principalmente para programar:
+          </p>
+          <p>- firmware</p>
+          <p>- drivers</p>
+          <p>- compiladores</p>
+          <p>- sistemas operacionais (como pequenas partes do Windows e do Linux)</p>
+        </div>
+
+        <div class="col-md-6">
+          <h3>Construindo uma placa de vídeo com componentes eletrônicos comuns</h3>
+          <p>
+            Para além do assembly, existe a programação ainda mais baixo nível. O vídeo ao lado mostra como construir uma placa de vídeo apenas com componentes eletrônicos comuns.
           </p>
         </div>
         <div class="col-md-6">
-          Vídeo aqui
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/l7rce6IQDWs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
       <!--/texto e vídeo-->
